@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDMotorbike - APM 25-1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h1 {
+      color: #1e3a8a;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .li_norm {
+      background: #ffffff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .a_norm {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .a_norm:hover {
+      text-decoration: underline;
+    }
+    .title {
+      font-weight: bold;
+    }
+  </style>
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">BDMOTOR<span>bike</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item "><a href="index.html" class="nav-link">Inicio</a></li>
+	          <li class="nav-item"><a href="proyecto.html" class="nav-link">Proyecto</a></li>
+	          <li class="nav-item"><a href="gestion.html" class="nav-link">Gestión</a></li>
+	          <li class="nav-item"><a href="evaluacion.html" class="nav-link">Evaluación</a></li>
+	          <li class="nav-item"><a href="celda.html" class="nav-link">Celda</a></li>
+	          <li class="nav-item"><a href="gemelo.html" class="nav-link">Gemelo</a></li>
+            <li class="nav-item"><a href="scada.html" class="nav-link">SCADA</a></li>
+	          <li class="nav-item active"><a href="plc.html" class="nav-link">Reflexiones</a></li>
+            
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    <section 
+      class="fullwidth-bg" 
+      style="
+        background-image: url('images/nav1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        display: block;
+      " 
+      data-stellar-background-ratio="0.5">
+    </section>
+    <section>
+      <div>
+         <h3>Normas y Leyes para Planta de Ensamblaje de Motos Eléctricas en Colombia</h3>
+          <ul>
+            <li class="li_norm">
+              <span class="title">Ley 1562 de 2012 – SG-SST:</span><br>
+              <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=48365" target="_blank">
+                Ver norma
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">Decreto 1072 de 2015 – Decreto Único del sector Trabajo:</span><br>
+              <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=67058" target="_blank">
+                Ver decreto
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">Resolución 1111 de 2017 – Estándares mínimos SG-SST:</span><br>
+              <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80367" target="_blank">
+                Ver resolución
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">Resolución 2468 de 2022 – Uso de EPP y controles en planta:</span><br>
+              <a href="https://normograma.invima.gov.co/normograma/docs/resolucion_mtra_2468_2022.htm" target="_blank">
+                Ver resolución
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">Resolución 45295 de 2022 – Homologación de motos eléctricas:</span><br>
+              <a href="https://www.mintransporte.gov.co/descargar.php?idFile=25589" target="_blank">
+                Ver resolución
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">Circular Única SIC – Responsabilidades de fabricantes:</span><br>
+              <a href="https://www.sic.gov.co/sites/default/files/files/normatividad/circular_unica.pdf" target="_blank">
+                Ver circular
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">Decreto 2272 de 1991 – Control de sustancias químicas:</span><br>
+              <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1883" target="_blank">
+                Ver decreto
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">Circular 004 de 2022 – Importación industrial:</span><br>
+              <a href="https://www.mincit.gov.co/ministerio/marco-legal/circulares/circular-externa-004-de-2022" target="_blank">
+                Ver circular
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">ISO 12100:2012 – Seguridad en diseño de maquinaria:</span><br>
+              <a href="https://www.iso.org/standard/51528.html" target="_blank">
+                Ver norma ISO
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">ISO 10218-1:2011 – Seguridad en robots industriales:</span><br>
+              <a href="https://www.iso.org/standard/51330.html" target="_blank">
+                Ver norma ISO
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">ISO 10218-2:2011 – Seguridad en integración robótica:</span><br>
+              <a href="https://www.iso.org/standard/51331.html" target="_blank">
+                Ver norma ISO
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">ISO/TS 15066:2016 – Robots colaborativos (cobots):</span><br>
+              <a href="https://www.iso.org/standard/62996.html" target="_blank">
+                Ver norma ISO
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">ISO 13849-1:2016 – Sistemas de mando seguros:</span><br>
+              <a href="https://www.iso.org/standard/69883.html" target="_blank">
+                Ver norma ISO
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">IEC 60204-1:2016 – Seguridad eléctrica en maquinaria:</span><br>
+              <a href="https://webstore.iec.ch/publication/2612" target="_blank">
+                Ver norma IEC
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">IEC 61508 – Seguridad funcional:</span><br>
+              <a href="https://webstore.iec.ch/publication/5510" target="_blank">
+                Ver norma IEC
+              </a>
+            </li>
+            <li class="li_norm">
+              <span class="title">IEC 62061 – Seguridad de sistemas eléctricos:</span><br>
+              <a href="https://webstore.iec.ch/publication/5510" target="_blank">
+                Ver norma IEC
+              </a>
+            </li class="li_norm">
+          </ul>
+      </div>
+      <div>
+        <h1 style="
+          text-align: center;
+          margin-top: 50px;
+      ">Reflexiones</h1>
+      </div>
+      <div style="padding:30px;">
+        <h2 style="text-align: center;">Rodrigo Deolan Vera</h2>
+        
+        <p>
+          A nivel personal, este proyecto representó un desafío bastante grande. Sin embargo, el aprendizaje obtenido fue igual de significativo. Aunque ya tenía experiencia con softwares como Studio 5000 e Inventor, trabajar con Ignition, RS Linx y Siemens NX fue un reto completamente nuevo que me permitió ampliar considerablemente mis conocimientos, despertando aún más mi interés por el tema.
+        </p>
+        <p>
+          La posibilidad de lograr la interconexión entre estos softwares fue una experiencia muy gratificante, especialmente al ver en funcionamiento la supervisión de datos del gemelo digital. Además, todo el proceso de planeación, incluyendo el análisis de automatización para evaluar su viabilidad en planta, el estudio de costos, la implementación de análisis de riesgos y otras consideraciones clave para el desarrollo del proyecto, resultó ser una experiencia enriquecedora.
+        </p>
+        <p>
+          Lo único que considero como una dificultad fue el poco tiempo disponible para comprender a fondo los conceptos relacionados con el gemelo digital, SCADA y programación en Ladder. Aun así, para mí fue una experiencia muy valiosa y agradable poder participar en este proyecto.
+        </p>
+
+
+
+      </div>
+      <div style="padding:30px;">
+        <h2 style="text-align: center;">
+          Oscar Javier Restrepo
+        </h2>
+        <p>
+          Para mí, este proyecto fue un gran reto. La gestión del tiempo y la organización de las actividades fueron aspectos fundamentales para poder llevarlo a cabo con éxito. A nivel personal, me enseñó a enfrentar problemas propios del trabajo en equipo y a tomar decisiones difíciles cuando fue necesario.
+        </p>
+        <p>
+          Desde el punto de vista técnico, comprendí que las consideraciones necesarias para implementar un sistema de automatización son mucho más amplias de lo que inicialmente imaginaba. No obstante, esto me permitió aprender y reconocer aspectos clave como el análisis de rentabilidad, el uso de indicadores como los KPIs y el OEE.
+        </p>
+        <p>
+          Además, abordar temas como la gestión de riesgos, el cumplimiento de normativas legales y el manejo de herramientas técnicas como Siemens NX, SCADA, programación Ladder e incluso el software de KUKA fue una experiencia que no solo fortaleció mis conocimientos, sino que también amplió mi perspectiva sobre todo el proceso de automatización.
+        </p>
+        <p>
+          En lo personal, aunque el tiempo disponible fue limitado, considero que asumir un reto como este vale completamente la pena. Tal vez reorganizaría el orden de los módulos para optimizar el aprendizaje dentro del tiempo asignado, pero en general, fue una experiencia que disfruté mucho.
+        </p>
+
+
+
+
+
+
+      </div>
+      <p></p>
+     </section>
+    
+    <section 
+      class="fullwidth-bg" 
+      style="
+        background-image: url('images/nav1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        display: block;
+      " 
+      data-stellar-background-ratio="0.5">
+    </section>
+
+    
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><a href="#" class="logo">BDMOTOR<span>BIKE</span></a></h2>
+              <p>Nuestros vehículos eléctricos fusionan innovación y diseño para ofrecer una movilidad sostenible sin compromisos. Más que un vehículo, es una declaración de independencia energética y conciencia ambiental.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Información</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Acerca de nosotros</a></li>
+                <li><a href="#" class="py-2 d-block">Servicios</a></li>
+                <li><a href="#" class="py-2 d-block">Términos y Condiciones</a></li>
+                <li><a href="#" class="py-2 d-block">Garantías</a></li>
+                <li><a href="#" class="py-2 d-block">Políticas de manejo de datos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Soporte al cliente</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Opciones de pago</a></li>                
+                <li><a href="#" class="py-2 d-block">Contáctenos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Tiene preguntas?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Universidad Nacional de Colombia, Bogotá, Colombia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+57 312 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">ojrestrepom@unal.edu.co.com</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">rverar@unal.edu.co.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

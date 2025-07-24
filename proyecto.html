@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDMotorbike - APM 25-1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- AnyChart -->
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-gantt.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js"></script>
+    <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">BDMOTOR<span>bike</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto" style="color: black;">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+	          <li class="nav-item active"><a href="proyecto.html" class="nav-link">Proyecto</a></li>
+	          <li class="nav-item"><a href="gestion.html" class="nav-link">Gestión</a></li>
+	          <li class="nav-item"><a href="evaluacion.html" class="nav-link">Evaluación</a></li>
+	          <li class="nav-item"><a href="celda.html" class="nav-link">Celda</a></li>
+	          <li class="nav-item"><a href="gemelo.html" class="nav-link">Gemelo</a></li>
+            <li class="nav-item"><a href="scada.html" class="nav-link">SCADA</a></li>
+	          <li class="nav-item"><a href="plc.html" class="nav-link">Reflexiones</a></li>
+            
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section 
+      class="fullwidth-bg" 
+      style="
+        background-image: url('images/nav1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        display: block;
+      " 
+      data-stellar-background-ratio="0.5">
+    </section>
+    <!-- Actividades -->
+    <section></section>
+
+		
+    <div>
+      <h1 class="mb-3 bread" style="padding-top: 20px;">Cronograma <span style="font-size: small;">( <a href="./excel/cronograma.xlsx">Ver</a> )</span></h1>
+
+    </div>
+    <div id="timeline-container" style="width: 100%; height: 500px; padding-top: 10px; padding-bottom: 50px;"></div>
+    <!-- Canva -->
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+            <h2 class="mb-4">Modelo de Negocio (Canvas)</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="canvas-grid ftco-animate">
+              <!-- Fila 1 -->
+              <div class="canvas-item bg-primary text-white">
+                <h4>Socios Clave</h4>
+                <ul>
+                  <li>Fabricantes de baterías</li>
+                  <li>Talleres asociados</li>
+                  <li>Empresa de Software: App de diagnóstico remoto (IoT)</li>
+                  <li>Gobierno: Convenios reducción de gases</li>
+                </ul>
+              </div>
+              <div class="canvas-item bg-info text-white">
+                <h4>Actividades Clave</h4>
+                <ul>
+                  <li>Mantenimiento preventivo</li>
+                  <li>I+D: Desarrollo de controladores</li>
+                  <li>Servicio técnico: Talleres móviles con respuesta rápida</li>
+                  <li>Marketing: Eventos de test drive</li>
+                  <li>Sostenibilidad: Programa de reciclaje de baterías</li>
+
+                </ul>
+              </div>
+              <div class="canvas-item bg-success text-white">
+                <h4>Propuesta de Valor</h4>
+                <ul>
+                  <li>Movilidad sostenible</li>
+                  <li>Autonomia de 120 km por carga</li>
+                  <li>Tecnología accesible</li>
+                  <li>Ahorro de $200.000 COP/mes vs gasolina</li>
+                  <li>App con diagnóstico predictivo de fallas</li>
+                  <li>Garantía extendida de 3 años</li>
+                </ul>
+              </div>
+              <!-- Fila 2 -->
+              <div class="canvas-item bg-warning">
+                <h4>Relación con Clientes</h4>
+                <ul>
+                  <li>Portal web con tutoriales de mantenimiento</li>
+                  <li>Club de usuarios con descuentos exclusivos</li>
+                  <li>Asistencia: *"Chatbot 24/7 + agente humano para emergencias</li>
+                  
+                </ul>
+              </div>
+              <div class="canvas-item bg-danger text-white">
+                <h4>Segmentos de Clientes</h4>
+                <ul>
+                  <li>B2C: Jóvenes urbanos (25-35 años) que usan moto para entregas </li>
+                  <li>B2B: Empresas de logística última milla</li>
+                  <li>Gobierno: Municipalidades para flotas ecológicas</li>
+                </ul>
+              </div>
+              <!-- Fila 3 -->
+              <div class="canvas-item bg-secondary text-white">
+                <h4>Recursos Clave</h4>
+                <ul>
+                  <li>Físicos: Talleres certificados en 5 ciudades</li>
+                  <li>Intelectuales: Patente de diseño de chasis modular</li>
+                  <li>Humanos: Equipo de ingenieros especializados en movilidad eléctrica.</li>                
+                </ul>
+              </div>
+              <div class="canvas-item bg-dark text-white">
+                <h4 style="color: coral;">Canales</h4>
+                <ul>
+                  <li>Directos: Venta online con envío gratis</li>
+                  <li>Showrooms en centros comerciales</li>
+                  <li>Digital: WhatsApp Business para ventas personalizadas.</li>              
+                </ul>
+              </div>
+              <!-- Fila 4 -->
+              <div class="canvas-item bg-light">
+                <h4>Estructura de Costos</h4>
+                <ul>
+                  <li>Investigación (20% de utilidades)</li>
+                  <li>Infraestructura</li>
+                </ul>
+              </div>
+              <div class="canvas-item bg-primary text-white">
+                <h4>Flujo de Ingresos</h4>
+                <ul>
+                  <li>Venta de vehículos</li>
+                  <li>Suscripciones a planes de mantenimiento</li>
+                  <li>Recarga express en puntos estratégicos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><a href="#" class="logo">BDMOTOR<span>BIKE</span></a></h2>
+              <p>Nuestros vehículos eléctricos fusionan innovación y diseño para ofrecer una movilidad sostenible sin compromisos. Más que un vehículo, es una declaración de independencia energética y conciencia ambiental.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Información</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Acerca de nosotros</a></li>
+                <li><a href="#" class="py-2 d-block">Servicios</a></li>
+                <li><a href="#" class="py-2 d-block">Términos y Condiciones</a></li>
+                <li><a href="#" class="py-2 d-block">Garantías</a></li>
+                <li><a href="#" class="py-2 d-block">Políticas de manejo de datos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Soporte al cliente</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Opciones de pago</a></li>                
+                <li><a href="#" class="py-2 d-block">Contáctenos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Tiene preguntas?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Universidad Nacional de Colombia, Bogotá, Colombia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+57 312 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">ojrestrepom@unal.edu.co.com</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">rverar@unal.edu.co.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    anychart.onDocumentReady(function() {
+      fetch('./data/data.json')
+        .then(response => response.json())
+        .then(data => {
+          
+          var chart = anychart.ganttProject();
+          
+          chart.data(data.data);
+          var dataGrid = chart.dataGrid();
+          dataGrid
+            .column(0)
+              .title('No')
+              .width(30)
+              .labels({ hAlign: 'center' });
+          dataGrid
+            .column(1)
+              .title('Actividad')
+              .width(220)
+              .labels({ hAlign: 'center' });
+          dataGrid
+            .column(2)
+            .title('Inicio')
+            .width(80)
+            .labels()
+            .hAlign('right')
+            .format(function () {
+              var date = new Date(this.actualStart);
+              var month = date.getUTCMonth() + 1;
+              var strMonth = month > 9 ? month : '0' + month;
+              var utcDate = date.getUTCDate();
+              var strDate = utcDate > 9 ? utcDate : '0' + utcDate;
+              return date.getUTCFullYear() + '.' + strMonth + '.' + strDate;
+            });
+            dataGrid
+            .column(3)
+            .title('Fin')
+            .width(80)
+            .labels()
+            .hAlign('right')
+            .format(function () {
+              var date = new Date(this.actualEnd);
+              var month = date.getUTCMonth() + 1;
+              var strMonth = month > 9 ? month : '0' + month;
+              var utcDate = date.getUTCDate();
+              var strDate = utcDate > 9 ? utcDate : '0' + utcDate;
+              return date.getUTCFullYear() + '.' + strMonth + '.' + strDate;
+            });
+            console.log(dataGrid);
+          chart.container('timeline-container');
+          chart.draw();
+        });
+    });
+  </script>  
+  <style>
+  .canvas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .canvas-item {
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  .canvas-item:hover {
+    transform: translateY(-5px);
+  }
+  .canvas-item h4 {
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+</style>
+  </body>
+</html>

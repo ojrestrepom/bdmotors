@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDMotorbike - APM 25-1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- Magnific Popup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css">
+    <style>
+      .color-circle { width: 20px; height: 20px; border-radius: 50%; margin-right: 8px; border: 1px solid #ddd; }
+      .services-2:hover {
+          background: #f8f9fa;
+          transform: translateY(-5px);
+          transition: 0.3s;
+      }
+      .icon span {
+          color: #3498db; /* Color azul para íconos */
+      }
+    </style>
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">BDMOTOR<span>bike</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+	          <li class="nav-item"><a href="proyecto.html" class="nav-link">Proyecto</a></li>
+	          <li class="nav-item"><a href="gestion.html" class="nav-link">Gestión</a></li>
+	          <li class="nav-item"><a href="evaluacion.html" class="nav-link">Evaluación</a></li>
+	          <li class="nav-item"><a href="celda.html" class="nav-link">Celda</a></li>
+	          <li class="nav-item"><a href="gemelo.html" class="nav-link">Gemelo</a></li>
+            <li class="nav-item"><a href="scada.html" class="nav-link">SCADA</a></li>
+	          <li class="nav-item"><a href="plc.html" class="nav-link">Reflexiones</a></li>
+            
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap ftco-degree-bg" style="background-image: url('images/bg_1.png');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
+          <div class="col-lg-8 ftco-animate">
+          	<div class="text w-100 text-center mb-md-5 pb-md-5">
+	            <h1 class="mb-4">Libertad & Estilo</h1>
+	            <p style="font-size: 18px;">Eléctrico por Naturaleza, Libre por Elección</p>
+	            <a href="https://www.youtube.com/watch?v=2Y7BIUvAuUY" class="icon-wrap popup-youtube d-flex align-items-center mt-4 justify-content-center">
+	            	<div class="icon d-flex align-items-center justify-content-center">
+	            		<span class="ion-ios-play"></span>
+	            	</div>
+	            	<div class="heading-title ml-5">
+		            	<span>Mírala en acción</span>
+	            	</div>
+	            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section ftco-no-pt bg-light">
+      <div class="container">
+          <div class="row no-gutters">
+              <div class="col-md-12 featured-top">
+                  <div class="row no-gutters">
+                      <!-- Formulario: Agendar Servicio/Test Drive -->
+                      <div class="col-md-4 d-flex align-items-center">
+                          <form action="#" class="request-form ftco-animate bg-primary">
+                              <h2>Solicita un Servicio</h2>
+                              <div class="form-group">
+                                  <label for="" class="label">Tipo de Servicio</label>
+                                  <select class="form-control">
+                                      <option value="">Selecciona...</option>
+                                      <option value="test-drive">Test Drive</option>
+                                      <option value="maintenance">Mantenimiento Preventivo</option>
+                                      <option value="repair">Reparación Urgente</option>
+                                      <option value="parts">Cotización de Repuestos</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="" class="label">Ubicación</label>
+                                  <input type="text" class="form-control" placeholder="Ciudad, Dirección">
+                              </div>
+                              <div class="d-flex">
+                                  <div class="form-group mr-2">
+                                      <label for="" class="label">Fecha</label>
+                                      <input type="date" class="form-control" id="service_date">
+                                  </div>
+                                  <div class="form-group ml-2">
+                                      <label for="" class="label">Hora</label>
+                                      <input type="time" class="form-control" id="service_time">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <input type="submit" value="Agendar Ahora" class="btn btn-secondary py-3 px-4">
+                              </div>
+                          </form>
+                      </div>
+
+                      <!-- Beneficios -->
+                      <div class="col-md-8 d-flex align-items-center">
+                          <div class="services-wrap rounded-right w-100">
+                              <h3 class="heading-section mb-4">La mejor forma de cuidar tu vehículo eléctrico</h3>
+                              <div class="row d-flex mb-4">
+                                  <!-- Beneficio 1 -->
+                                  <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                                      <div class="services w-100 text-center">
+                                          <div class="icon d-flex align-items-center justify-content-center">
+                                              <i class="fas fa-calendar-check fa-3x"></i> <!-- Icono FontAwesome -->
+                                          </div>
+                                          <div class="text w-100">
+                                              <h3 class="heading mb-2">Agenda en Línea</h3>
+                                              <p>24/7 desde nuestra plataforma.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- Beneficio 2 -->
+                                  <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                                      <div class="services w-100 text-center">
+                                          <div class="icon d-flex align-items-center justify-content-center">
+                                              <i class="fas fa-tools fa-3x"></i>
+                                          </div>
+                                          <div class="text w-100">
+                                              <h3 class="heading mb-2">Técnicos Certificados</h3>
+                                              <p>Expertos en movilidad eléctrica.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- Beneficio 3 -->
+                                  <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                                      <div class="services w-100 text-center">
+                                          <div class="icon d-flex align-items-center justify-content-center">
+                                              <i class="fas fa-bolt fa-3x"></i>
+                                          </div>
+                                          <div class="text w-100">
+                                              <h3 class="heading mb-2">Servicio Rápido</h3>
+                                              <p>Diagnóstico en menos de 2 horas.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <p><a href="#" class="btn btn-primary py-3 px-4">Conoce Nuestros Planes de Mantenimiento</a></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section ftco-no-pt bg-light">
+    	<div class="container">
+    		<div class="row justify-content-center">
+          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+          	<span class="subheading">Lo que ofrecemos</span>
+            <h2 class="mb-2">Características de los vehículos</h2>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="carousel-car owl-carousel">
+    					<div class="item">
+    						<div class="car-wrap rounded ftco-animate">
+		    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/vehiculo_1.jpeg);">
+		    					</div>
+		    					<div class="text">
+		    						<h2 class="mb-0"><a href="#">Mini Eagle 20AH Lite</a></h2>
+		    						<div class="d-flex mb-3">
+			    						<span class="cat">Bicicleta</span>
+			    						<p class="price ml-auto">$4.900.000 <span></span></p>
+		    						</div>
+		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Sepárela</a> <a href="#" class="btn btn-secondary py-2 ml-1" data-toggle="modal" data-target="#modal1">Detalles</a></p>
+		    					</div>
+		    				</div>
+    					</div>
+    					<div class="item">
+    						<div class="car-wrap rounded ftco-animate">
+		    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/vehiculo_2.jpeg);">
+		    					</div>
+		    					<div class="text">
+		    						<h2 class="mb-0"><a href="#">Dynamo Motors DM5</a></h2>
+		    						<div class="d-flex mb-3">
+			    						<span class="cat">Motocicleta</span>
+			    						<p class="price ml-auto">$7.900.000</p>
+		    						</div>
+		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Sepárela</a> <a href="#" class="btn btn-secondary py-2 ml-1" data-toggle="modal" data-target="#modal2">Detalles</a></p>
+		    					</div>
+		    				</div>
+    					</div>
+    					<div class="item">
+    						<div class="car-wrap rounded ftco-animate">
+		    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/vehiculo_3.png);">
+		    					</div>
+		    					<div class="text">
+		    						<h2 class="mb-0"><a href="#">Urbet Gadiro R7 </a></h2>
+		    						<div class="d-flex mb-3">
+			    						<span class="cat">Motocicleta</span>
+			    						<p class="price ml-auto">$10.800.000 </p>
+		    						</div>
+		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Sepárela</a> <a href="#" class="btn btn-secondary py-2 ml-1" data-toggle="modal" data-target="#modal3">Detalles</a></p>
+		    					</div>
+		    				</div>
+    					</div>
+    					
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-about">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/acerca.jpg);">
+					</div>
+					<div class="col-md-6 wrap-about ftco-animate">
+	          <div class="heading-section heading-section-white pl-md-5">
+	          	<span class="subheading">Acerca de nosotros</span>
+	            <h2 class="mb-4">Bienvenido a BDMotorbike</h2>
+              <p>BDMotorbike es una empresa dedicada a la comercialización de vehículos eléctricos, enfocada en ofrecer soluciones de movilidad sostenible y eficiente. Nuestra misión es transformar la forma en que las personas se desplazan, promoviendo un estilo de vida más ecológico y responsable con el medio ambiente.</p>
+	            <p>Nuestros vehículos eléctricos fusionan innovación y diseño para ofrecer una movilidad sostenible sin compromisos. Con baterías de iones de litio de alta eficiencia (autonomía de 60-120 km por carga), motores sin escobillas de bajo mantenimiento (250W a 3000W según modelo) y materiales ultraligeros (chasis de aleación de aluminio), garantizamos un transporte ágil, económico y adaptado al estilo de vida urbano. La conectividad IoT integrada (app móvil para seguimiento de rutas y diagnóstico remoto) empodera al usuario, mientras que diseños ergonómicos y personalizables (colores, accesorios modulares) reflejan su identidad. Más que un vehículo, es una declaración de independencia energética y conciencia ambiental</p>
+	            
+	            
+	          </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section">
+			<div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <span class="subheading">Servicios</span>
+                <h2 class="mb-3">Nuestros Servicios</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Mantenimiento Preventivo -->
+            <div class="col-md-3">
+                <div class="services services-2 w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/showroom.png" alt="Mantenimiento" width="50"></div>
+                    <div class="text w-100">
+                        <h3 class="heading mb-2">Mantenimiento Preventivo</h3>
+                        <p>Inspecciones y ajustes programados para garantizar el rendimiento óptimo de tu vehículo eléctrico.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Servicio Técnico -->
+            <div class="col-md-3">
+                <div class="services services-2 w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/bike.png" alt="Tecnico" width="50"></div>
+                    <div class="text w-100">
+                        <h3 class="heading mb-2">Servicio Técnico</h3>
+                        <p>Reparaciones especializadas en motores eléctricos, baterías y sistemas de control.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Venta de Repuestos -->
+            <div class="col-md-3">
+                <div class="services services-2 w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/battery.png" alt="Repuestos" width="50"></div>
+                    <div class="text w-100">
+                        <h3 class="heading mb-2">Venta de Repuestos</h3>
+                        <p>Componentes originales: baterías, motores, frenos y accesorios para tu vehículo.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Servicio de Grúa -->
+            <div class="col-md-3">
+                <div class="services services-2 w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center"><img src="images/icons/tow-truck.png" alt="Grua" width="50"></div>
+                    <div class="text w-100">
+                        <h3 class="heading mb-2">Servicio de Grúa</h3>
+                        <p>Asistencia 24/7 para transporte seguro de tu vehículo en caso de emergencias.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+		</section>
+
+		<section class="ftco-section ftco-intro" style="background-image: url(images/bg_3.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-md-6 heading-section heading-section-white ftco-animate">
+            <h2 class="mb-3">¿Listo para unirte a la revolución eléctrica? Sé parte del cambio hoy.</h2>
+            <a href="#" class="btn btn-primary btn-lg" >Únete a Nuestro Equipo</a>
+          </div>
+				</div>
+			</div>
+		</section>
+
+
+    <section class="ftco-section testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+          	<span class="subheading">Nuestro equipo</span>
+            <h2 class="mb-3">Automatización de Procesos de Manufactura</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/oscar.png)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Estudiante de Ingeniería Mecatrónica. Facilitador de los procesos de Formulación, Gestión y Evaluación de Proyectos</p>
+                    <p class="name">Oscar Javier Restrepo</p>
+                    <span class="position">Gestion de Proyectos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/Rodrigo.jpeg)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Estudiante de Ingeniería Mecatrónica. Facilitador de procesos de Industria y Automatización, y de Seguridad Industrial</p>
+                    <p class="name">Rodrigo Deolan Vera</p>
+                    <span class="position">Consultor OT</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/carlos.png)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Profesor del curso de Automatización de Procesos de Manufactura. Gestión de Producción. Universidad Nacional de Colombia</p>
+                    <p class="name">Carlos Julio Cortés</p>
+                    <span class="position">Coach en Gestión de Producción</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/ubaldo.png)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Profesor del curso de Automatización de Procesos de Manufactura. Automatización e industria. Universidad Nacional de Colombia</p>
+                    <p class="name">Ubaldo García Zaragoza</p>
+                    <span class="position">Coach en Automatización e Industria</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/ricardo.png)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Profesor del curso de Automatización de Procesos de Manufactura. Automatización con robots. Universidad Nacional de Colombia</p>
+                    <p class="name">Ricardo Emiro Ramirez</p>
+                    <span class="position">Coach en Automatización con Robots</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/eduardo.png)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Profesor del curso de Automatización de Procesos de Manufactura. PLC y SCADA. Universidad Nacional de Colombia.</p>
+                    <p class="name">Eduardo Barrera Gualdrón</p>
+                    <span class="position">Coach en SCADA</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/mendez.png)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Profesor del curso de Automatización de Procesos de Manufactura. Gestión y Evaluación de Proyectos. Universidad Nacional de Colombia</p>
+                    <p class="name">Luis Miguel Mendez</p>
+                    <span class="position">Coach en Gestión de Proyectos</span>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Conoce Más</span>
+            <h2>Novedades y Tips</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <!-- Blog 1: Mantenimiento de Baterías -->
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/imagen1.jpg');"></a>
+              <div class="text pt-4">
+                <div class="meta mb-3">
+                  <div><a href="#">Mar. 15, 2025</a></div>
+                  <div><a href="#">Equipo Técnico</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 5</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Cómo alargar la vida útil de tu batería eléctrica</a></h3>
+                <p class="summary">Aprende prácticas clave para maximizar la autonomía y durabilidad de tu vehículo.</p>
+                <p><a href="#" class="btn btn-primary">Leer más</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 2: Nuevo Modelo -->
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/imagen2.jpg');"></a>
+              <div class="text pt-4">
+                <div class="meta mb-3">
+                  <div><a href="#">Abr. 2, 2025</a></div>
+                  <div><a href="#">Innovación</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 12</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Presentamos el Dynamo X4: Más autonomía y potencia</a></h3>
+                <p class="summary">Descubre las mejoras tecnológicas de nuestro último lanzamiento.</p>
+                <p><a href="#" class="btn btn-primary">Leer más</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 3: Beneficios Ecológicos -->
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/imagen3.jpg');"></a>
+              <div class="text pt-4">
+                <div class="meta mb-3">
+                  <div><a href="#">May. 10, 2025</a></div>
+                  <div><a href="#">Sostenibilidad</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 8</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">El impacto ambiental de cambiar a movilidad eléctrica</a></h3>
+                <p class="summary">Analizamos cómo reduces tu huella de carbono con cada kilómetro recorrido.</p>
+                <p><a href="#" class="btn btn-primary">Leer más</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>	
+
+    <section class="ftco-counter ftco-section img bg-light" id="section-counter">
+			<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row">
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text text-border d-flex align-items-center">
+                <strong class="number" data-number="10">0</strong>
+                <span>Años <br>de experiencia</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text text-border d-flex align-items-center">
+                <strong class="number" data-number="1090">0</strong>
+                <span>Vehículos <br>Totales</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text text-border d-flex align-items-center">
+                <strong class="number" data-number="2590">0</strong>
+                <span>Clientes <br>Felices</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text d-flex align-items-center">
+                <strong class="number" data-number="10">0</strong>
+                <span>Total de <br>Sucursales</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>	
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><a href="#" class="logo">BDMOTOR<span>BIKE</span></a></h2>
+              <p>Nuestros vehículos eléctricos fusionan innovación y diseño para ofrecer una movilidad sostenible sin compromisos. Más que un vehículo, es una declaración de independencia energética y conciencia ambiental.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Información</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Acerca de nosotros</a></li>
+                <li><a href="#" class="py-2 d-block">Servicios</a></li>
+                <li><a href="#" class="py-2 d-block">Términos y Condiciones</a></li>
+                <li><a href="#" class="py-2 d-block">Garantías</a></li>
+                <li><a href="#" class="py-2 d-block">Políticas de manejo de datos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Soporte al cliente</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Opciones de pago</a></li>                
+                <li><a href="#" class="py-2 d-block">Contáctenos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Tiene preguntas?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Universidad Nacional de Colombia, Bogotá, Colombia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+57 312 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">ojrestrepom@unal.edu.co.com</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">rverar@unal.edu.co.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <!-- Modal para Mini Eagle 20AH Lite -->
+  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mini Eagle 20AH Lite - Especificaciones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><strong>Tipo:</strong> Bicicleta eléctrica</li>
+            <li><strong>Motor:</strong> 350W</li>
+            <li><strong>Batería:</strong> 20Ah</li>
+            <li><strong>Autonomía:</strong> 40 - 48 km</li>
+            <li><strong>Velocidad máxima:</strong> 35 km/h</li>
+            <li><strong>Peso:</strong> 22kg</li>
+            <li><strong>Peso máximo de carga:</strong> 100 kg</li>
+            <li><strong>Frenos:</strong> Disco delantero - bandas trasero</li>
+            <li class="d-flex align-items-center">
+              <strong>Colores: </strong>
+              <div class="d-flex ml-2">
+                <div class="color-circle" style="background-color: #FF5733;"></div> <!-- Naranja -->
+                <div class="color-circle" style="background-color: #000000;"></div> <!-- Negro -->
+                <div class="color-circle" style="background-color: #335bff;"></div>
+              </div>
+            </li>
+          </ul>
+          
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para Dynamo Motors DM5 -->
+  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Dynamo Motors DM5 - Especificaciones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><strong>Tipo:</strong> Motocicleta eléctrica</li>
+            <li><strong>Motor:</strong> 1500W</li>
+            <li><strong>Batería:</strong> 48 V 26 A</li>
+            <li><strong>Autonomía:</strong> 60 - 70 km</li>
+            <li><strong>Velocidad máxima:</strong> 45 km/h</li>
+            <li><strong>Peso:</strong> 35 kg</li>
+            <li><strong>Peso máximo de carga:</strong> 150 kg</li>            
+            <li><strong>Frenos:</strong> Disco delantero - bandas trasero</li>
+            <li class="d-flex align-items-center">
+              <strong>Colores: </strong>
+              <div class="d-flex ml-2">
+                <div class="color-circle" style="background-color: #d0d1d5 ;"></div> <!-- Naranja -->
+                <div class="color-circle" style="background-color: #000000;"></div> <!-- Negro -->
+                <div class="color-circle" style="background-color: #f73415;"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para Urbet Gadiro R7 -->
+  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Urbet Gadiro R7 - Especificaciones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><strong>Tipo:</strong> Motocicleta eléctrica</li>
+            <li><strong>Motor:</strong> 2200W</li>
+            <li><strong>Batería:</strong> 60 V 23.6 A</li>
+            <li><strong>Autonomía:</strong> 60 - 70 km</li>
+            <li><strong>Velocidad máxima:</strong> 50 km/h</li>
+            <li><strong>Peso:</strong> 38 kg</li>
+            <li><strong>Peso máximo de carga:</strong> 150 kg</li>            
+            <li><strong>Frenos:</strong> Disco delantero - bandas trasero</li>
+            <li class="d-flex align-items-center">
+              <strong>Colores: </strong>
+              <div class="d-flex ml-2">
+                <div class="color-circle" style="background-color: #d0d1d5 ;"></div> <!-- Naranja -->
+                <div class="color-circle" style="background-color: #000000;"></div> <!-- Negro -->                
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
+  
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script>
+      $(document).ready(function() {
+          $('.popup-youtube').magnificPopup({
+              type: 'iframe',
+              mainClass: 'mfp-fade',
+              removalDelay: 300,
+              preloader: false,
+              fixedContentPos: true,
+              iframe: {
+                  patterns: {
+                      youtube: {
+                          index: 'youtube.com/',
+                          id: 'v=',
+                          src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                      }
+                  }
+              }
+          });
+      });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: false, // Desactiva el bucle infinito
+      items: 4,   // Muestra hasta 4 ítems a la vez
+      nav: true,   // Botones de navegación
+      dots: true   // Puntos de paginación
+  });
+  </script>
+  </body>
+</html>

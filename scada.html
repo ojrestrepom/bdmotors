@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDMotorbike - APM 25-1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Contenedor principal (centrado horizontalmente) */
+        .video-container {
+            width: 100%;
+            max-width: 800px; /* Ancho máximo del video */
+            margin: 0 auto;   /* Centrado horizontal */
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            border-radius: 8px; /* Esquinas redondeadas */
+            background: #f9f9f9; /* Fondo claro */
+        }
+
+        /* Responsividad: ajusta el tamaño del iframe */
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Elimina el borde por defecto */
+        }
+
+        /* Opcional: estilo para el título */
+        .video-title {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin-bottom: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">BDMOTOR<span>bike</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item "><a href="index.html" class="nav-link">Inicio</a></li>
+	          <li class="nav-item"><a href="proyecto.html" class="nav-link">Proyecto</a></li>
+	          <li class="nav-item"><a href="gestion.html" class="nav-link">Gestión</a></li>
+	          <li class="nav-item"><a href="evaluacion.html" class="nav-link">Evaluación</a></li>
+	          <li class="nav-item"><a href="celda.html" class="nav-link">Celda</a></li>
+	          <li class="nav-item"><a href="gemelo.html" class="nav-link">Gemelo</a></li>	          
+            <li class="nav-item active"><a href="scada.html" class="nav-link">SCADA</a></li>
+            <li class="nav-item active"><a href="plc.html" class="nav-link">Reflexiones</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section 
+      class="fullwidth-bg" 
+      style="
+        background-image: url('images/nav1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        display: block;
+      " 
+      data-stellar-background-ratio="0.5">
+    </section>
+    <section>
+      
+      <div class="video-container">
+        <h2 class="video-title">Video del funcionamiento SCADA</h2> <!-- Título opcional -->
+        <div class="video-wrapper">
+            <!-- Reemplaza "ID_DEL_VIDEO" con el ID de tu video de YouTube -->
+            <iframe 
+                src="https://www.youtube.com/embed/o7F_zwNkEyI" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+      </div>
+      <div>
+        <h2 style="text-align: center;">
+          HMI
+        </h2>
+        <h3 style="text-align: center;">Control de Variables</h3>
+        <div style="text-align: center;">
+          <img src="./images/variables.jpeg" alt="Descripción de la imagen" style="max-width: 50%; height: auto;">
+        </div>
+        <h3 style="text-align: center;">Históricos</h3>
+        <div style="text-align: center;">
+          <img src="./images/historicos.jpeg" alt="Descripción de la imagen" style="max-width: 50%; height: auto;">
+        </div>
+        <h3 style="text-align: center;">Alarmas</h3>
+        <div style="text-align: center;">
+          <img src="./images/alarmas.jpeg" alt="Descripción de la imagen" style="max-width: 50%; height: auto;">
+        </div>
+      </div>
+      <div style="margin-bottom: 30px;">
+
+      </div>
+    </section>
+
+    
+		
+		
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><a href="#" class="logo">BDMOTOR<span>BIKE</span></a></h2>
+              <p>Nuestros vehículos eléctricos fusionan innovación y diseño para ofrecer una movilidad sostenible sin compromisos. Más que un vehículo, es una declaración de independencia energética y conciencia ambiental.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Información</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Acerca de nosotros</a></li>
+                <li><a href="#" class="py-2 d-block">Servicios</a></li>
+                <li><a href="#" class="py-2 d-block">Términos y Condiciones</a></li>
+                <li><a href="#" class="py-2 d-block">Garantías</a></li>
+                <li><a href="#" class="py-2 d-block">Políticas de manejo de datos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Soporte al cliente</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Opciones de pago</a></li>                
+                <li><a href="#" class="py-2 d-block">Contáctenos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Tiene preguntas?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Universidad Nacional de Colombia, Bogotá, Colombia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+57 312 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">ojrestrepom@unal.edu.co.com</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">rverar@unal.edu.co.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

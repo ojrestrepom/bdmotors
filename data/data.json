@@ -1,0 +1,364 @@
+{
+    
+  "data": [
+    {
+      "id": "1",
+      "name": "Fase 1: Inicio y planificación general",
+      "actualStart": "2025-05-05",
+      "actualEnd": "2025-05-18",
+      "progressValue": "100%"
+    },{
+        "id":"2",
+        "name": "Investigación preliminar del proyecto",
+        "actualStart": "2025-05-05",
+        "actualEnd": "2025-05-10",
+        "progressValue": "100%",
+        "parent":"1"
+    },
+    {
+    "id":"3",
+        "name": "Definición del problema, objetivos y metas",
+        "actualStart": "2025-05-10",
+        "actualEnd": "2025-05-14",
+        "progressValue": "100%",
+        "parent":"1"
+    },
+    {
+        "id":"4",
+        "name": "Selección de metodología de trabajo",
+        "actualStart": "2025-05-14",
+        "actualEnd": "2025-05-16",
+        "progressValue": "100%",
+        "parent":"1"
+    },
+    {
+        "id":"5",
+        "name": "Definición roles de trabajo",
+        "actualStart": "2025-05-16",
+        "actualEnd": "2025-05-18",
+        "progressValue": "100%",
+        "parent":"1"
+    },
+    {
+        "id":"6",
+        "name": "Definición requerimientos de comunicación",
+        "actualStart": "2025-05-16",
+        "actualEnd": "2025-05-18",
+        "progressValue": "100%",
+        "parent":"1"
+    },
+    {
+        "id":"7",
+        "name": "Organización y planificación de actividades",
+        "actualStart": "2025-05-16",
+        "actualEnd": "2025-05-18",
+        "progressValue": "100%",
+        "parent":"1"
+    },
+      
+    {
+      "id": "8",
+      "name": "Fase 2: Diagnóstico y análisis de la situación actual",
+      "actualStart": "2025-05-19",
+      "actualEnd": "2025-05-27",
+      "progressValue": "100%"
+    },{
+        "id":"9",
+        "name": "Recolección información procesos actuales",
+        "actualStart": "2025-05-19",
+        "actualEnd": "2025-05-22",
+        "progressValue": "100%",
+        "parent":"8"
+    },
+    {
+        "id":"10",
+        "name": "Clasificación de partes/procesos",
+        "actualStart": "2025-05-19",
+        "actualEnd": "2025-05-22",
+        "progressValue": "100%",
+        "parent":"8"
+    },
+    {
+        "id":"11",
+        "name": "Identificación proceso de fabricación actual",
+        "actualStart": "2025-05-23",
+        "actualEnd": "2025-05-27",
+        "progressValue": "100%",
+        "parent":"8"
+    },
+    {
+        "id":"12",
+        "name": "Identificación métricas actuales",
+        "actualStart": "2025-05-23",
+        "actualEnd": "2025-05-27",
+        "progressValue": "100%",
+        "parent":"8"
+    },
+    {
+      "id": "13",
+      "name": "Fase 3: Planteamiento y selección de alternativas",
+      "actualStart": "2025-05-28",
+      "actualEnd": "2025-06-08",
+      "progressValue": "100%"
+      
+    },
+    {
+        "id": "14",
+        "name": "Generación de alternativas",
+        "actualStart": "2025-05-28",
+        "actualEnd": "2025-05-31",
+        "progressValue": "100%",
+        "parent":"13"
+    },
+    {
+        "id": "15",
+        "name": "Evaluación técnica",
+        "actualStart": "2025-06-01",
+        "actualEnd": "2025-06-04",
+        "progressValue": "100%",
+        "parent":"13"
+    },
+    {
+        "id": "16",
+        "name": "Estimación de costos preliminares",
+        "actualStart": "2025-06-01",
+        "actualEnd": "2025-06-04",
+        "progressValue": "100%",
+        "parent":"13"
+    },
+    {
+        "id": "17",
+        "name": "Evaluación de impacto",
+        "actualStart": "2025-06-01",
+        "actualEnd": "2025-06-04",
+        "progressValue": "100%",
+        "parent":"13"
+    },
+    {
+        "id": "18",
+        "name": "Análisis multicriterio",
+        "actualStart": "2025-06-05",
+        "actualEnd": "2025-06-07",
+        "progressValue": "100%",
+        "parent":"13"
+    },
+    {
+        "id": "19",
+        "name": "Selección de alternativa",
+        "actualStart": "2025-06-07",
+        "actualEnd": "2025-06-08",
+        "progressValue": "100%",
+        "parent":"13"
+    },
+    {
+        "id": "20",
+        "name": "Revisión tareas y entregables",
+        "actualStart": "2025-06-07",
+        "actualEnd": "2025-06-07",
+        "progressValue": "100%",
+        "parent":"13"
+    },
+    {
+      "id": "21",
+      "name": "Fase 4: Diseño solución seleccionada",
+      "actualStart": "2025-06-09",
+      "actualEnd": "2025-06-22",
+      "progressValue": "100%"
+    },
+    {
+        "id": "22",
+        "name": "Especificación proceso de fabricación solución seleccionada",
+        "actualStart": "2025-06-09",
+        "actualEnd": "2025-06-14",
+        "progressValue": "100%",
+        "parent":"21"
+    },
+    {
+        "id": "23",
+        "name": "Identificación y planificación de bienes y servicios",
+        "actualStart": "2025-06-09",
+        "actualEnd": "2025-06-14",
+        "progressValue": "100%",
+        "parent":"21"
+    },
+    {
+        "id": "24",
+        "name": "Análisis de riesgos e implementación de medidas",
+        "actualStart": "2025-06-09",
+        "actualEnd": "2025-06-14",
+        "progressValue": "100%",
+        "parent":"21"
+    },
+    {
+        "id": "25",
+        "name": "Identificación de tecnologías industria 4.0 involucradas",
+        "actualStart": "2025-06-12",
+        "actualEnd": "2025-06-18",
+        "progressValue": "100%",
+        "parent":"21"
+    },
+    {
+        "id": "26",
+        "name": "Diseño infraestructura de automatización a nivel de Hardware",
+        "actualStart": "2025-06-12",
+        "actualEnd": "2025-06-22",
+        "progressValue": "100%",
+        "parent":"21"
+    },
+    {
+      "id": "27",
+      "name": "Fase 5: Análisis económico y viabilidad",
+      "actualStart": "2025-06-16",
+      "actualEnd": "2025-06-22",
+      "progressValue": "100%"     
+    },{
+        "id": "28",
+        "name": "Estimación detallada de costos del proyecto",
+        "actualStart": "2025-06-16",
+        "actualEnd": "2025-06-21",
+        "progressValue": "100%",
+        "parent":"27"
+    },
+    {
+        "id": "29",
+        "name": "Evaluación de rentabilidad del proyecto",
+        "actualStart": "2025-06-16",
+        "actualEnd": "2025-06-21",
+        "progressValue": "100%",
+        "parent":"27"
+    },
+    {
+        "id": "30",
+        "name": "Elaboración propuesta comercial",
+        "actualStart": "2025-06-18",
+        "actualEnd": "2025-06-22",
+        "progressValue": "100%",
+        "parent":"27"
+    },
+    {
+      "id": "31",
+      "name": "Fase 6: Implementación virtual e integración de sistemas",
+      "actualStart": "2025-06-23",
+      "actualEnd": "2025-07-13",
+      "progressValue": "100%"
+      
+    },{
+        "id": "32",
+        "name": "Integración con entorno digital",
+        "actualStart": "2025-06-23",
+        "actualEnd": "2025-06-28",
+        "progressValue": "100%",
+        "parent":"31"
+    },
+    {
+        "id": "33",
+        "name": "Estructuramiento modelo ciberfísico con industria 4.0",
+        "actualStart": "2025-06-29",
+        "actualEnd": "2025-07-13",
+        "progressValue": "100%",
+        "parent":"31"
+    },
+    {
+        "id": "34",
+        "name": "Implementación de lógica de control",
+        "actualStart": "2025-06-29",
+        "actualEnd": "2025-07-13",
+        "progressValue": "100%",
+        "parent":"31"
+    },
+    {
+        "id": "35",
+        "name": "Desarrollo sistema SCADA con validación de interfaz HMI",
+        "actualStart": "2025-06-29",
+        "actualEnd": "2025-07-13",
+        "progressValue": "100%",
+        "parent":"31"
+    },
+    {
+        "id": "36",
+        "name": "Desarrollo del modelo 3D de celda en Siemens NX",
+        "actualStart": "2025-06-29",
+        "actualEnd": "2025-07-13",
+        "progressValue": "100%",
+        "parent":"31"
+    },
+    {
+        "id": "37",
+        "name": "Modelamiento celda robotizada en RobotStudio",
+        "actualStart": "2025-06-29",
+        "actualEnd": "2025-07-13",
+        "progressValue": "100%",
+        "parent":"31"
+    },
+    {
+      "id": "38",
+      "name": "Fase 7: Documentación y comunicación de resultados",
+      "actualStart": "2025-07-14",
+      "actualEnd": "2025-07-22",
+      "progressValue": "100%"
+    },{
+        "id": "39",
+        "name": "Documentación administración del proyecto",
+        "actualStart": "2025-07-14",
+        "actualEnd": "2025-07-16",
+        "progressValue": "100%",
+        "parent":"38"
+    },
+    {
+        "id": "40",
+        "name": "Documentación coordinación del proyecto",
+        "actualStart": "2025-07-14",
+        "actualEnd": "2025-07-16",
+        "progressValue": "100%",
+        "parent":"38"
+    },
+    {
+        "id": "41",
+        "name": "Registro experiencia de aprendizaje",
+        "actualStart": "2025-07-16",
+        "actualEnd": "2025-07-18",
+        "progressValue": "100%",
+        "parent":"38"
+    },
+    {
+        "id": "42",
+        "name": "Registro líneas de trabajo futuras",
+        "actualStart": "2025-07-16",
+        "actualEnd": "2025-07-18",
+        "progressValue": "100%",
+        "parent":"38"
+    },
+    {
+        "id": "43",
+        "name": "Reporte audiovisual final",
+        "actualStart": "2025-07-16",
+        "actualEnd": "2025-07-19",
+        "progressValue": "100%",
+        "parent":"38"
+    },
+    {
+        "id": "44",
+        "name": "Actualización completa sitio en línea",
+        "actualStart": "2025-07-16",
+        "actualEnd": "2025-07-20",
+        "progressValue": "100%",
+        "parent":"38"
+    },
+    {
+        "id": "45",
+        "name": "Carga completa entregables",
+        "actualStart": "2025-07-16",
+        "actualEnd": "2025-07-21",
+        "progressValue": "100%",
+        "parent":"38"
+    },
+    {
+        "id": "46",
+        "name": "Revisión final proyecto",
+        "actualStart": "2025-07-20",
+        "actualEnd": "2025-07-22",
+        "progressValue": "100%",
+        "parent":"38"
+    }
+  ]
+}
